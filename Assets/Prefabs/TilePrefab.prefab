@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1650671567704502136}
   - component: {fileID: 985288716771455643}
   - component: {fileID: 5190666981050070152}
+  - component: {fileID: 6311614750486603799}
   m_Layer: 0
   m_Name: TilePrefab
   m_TagString: Untagged
@@ -108,3 +109,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6311614750486603799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8276314123866841708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85f543df084479844b42d14d39760676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkableMaterial: {fileID: 2100000, guid: 05d68fe573c9de945a06d6935a065b9e, type: 2}
+  obstacleMaterial: {fileID: 2100000, guid: 411a8050769cd604c9191a8ab5869b5e, type: 2}
+  coverMaterial: {fileID: 2100000, guid: 354f21aafdb32a6438ea2bf0f5c0d715, type: 2}

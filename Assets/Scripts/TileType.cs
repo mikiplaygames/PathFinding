@@ -2,7 +2,7 @@ namespace PathfindingDemo
 {
     public enum TileType
     {
-        Traversable = 0,
+        Walkable = 0,
         Obstacle = 1,
         Cover = 2
     }
